@@ -1,0 +1,28 @@
+1) git GUI tools:
+
+Github Desktop
+SourceTree
+GitKraken
+SmartGit
+Git Cola
+GitForce
+Giggle
+Magit
+Egit
+Gitg
+
+2) git push -u origin master:
+
+The git push -u command is equivalent to -set-upstream. The -u flag is used to set origin as the upstream remote in your git config. As you push a branch successfully or up to date it, it adds upstream reference.
+-u is the program which we want to share with the master branch.
+After pushing our local branch with -u option, this local branch will be automatically linked with remote branch, and you can use git pull without any arguments.
+
+origin is not the remote repository name. It is rather a local alias set as a key in place of the remote repository URL.
+
+It avoids the user having to type the whole remote URL when prompting a push.
+
+This name is set by default and for convention by Git when cloning from a remote for the first time.
+
+This alias name is not hard coded and could be changed using following command prompt:
+
+git remote rename origin mynewalias.
