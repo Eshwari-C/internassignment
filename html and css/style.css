@@ -1,0 +1,119 @@
+h1 {
+    color: red;
+}
+p.one {
+    font-size:20px;
+    font-style:italic;
+    font-family: Arial;
+    font-variant: small-caps;
+    font: x-large;
+}
+.ul {
+    text-decoration: underline;
+}
+.ol {
+    text-decoration: overline;
+}
+.indent {
+    text-indent: 2em;
+    text-align: right;
+    text-shadow: blueviolet;
+}
+ul ol {
+    list-style-type:upper-roman;
+}
+body{
+    background-image: url('image2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+table {
+    background-color: pink;
+    border-radius: 5%;
+    border-color: indigo;
+    border-style: groove;
+    border-width: 5px;
+    border-left:solid;
+    border-top: dotted;
+    border-right: double;
+    border-top-color: cornflowerblue;
+    border-right-color: rgb(245, 33, 33);
+    border-left-color: gold;
+    border-spacing: 30px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 1px;
+    
+}
+div{
+    border:1px solid blue;
+    padding-left:50px ;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+input[type=text] {
+    width:"50%";
+    margin-top:50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    border:1px solid blue;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(29, 205, 218);
+
+}
+p.three {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: coral;
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    text-orientation: sideways;
+    text-shadow: darkblue;
+    text-transform: uppercase;
+
+}
+a:hover {
+    color:rgb(26, 194, 110);
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+div.bounce {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    background: gold;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-iteration-count: 4;
+
+  }
+  @keyframes bounce {
+	from {
+	  top: 0px;
+	  left: 0px;
+	  }
+	to {
+	  top: 350px;
+	  left: 350px;
+	}
+}
+h3{
+    text-shadow:2px 2px aqua;
+}
+.image1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
